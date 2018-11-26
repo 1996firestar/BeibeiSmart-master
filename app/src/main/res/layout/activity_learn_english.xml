@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LearnEnglishActivity"
+    android:background="@drawable/u0">
+
+
+    <Button
+        android:id="@+id/btn_learn_english_return"
+        android:layout_margin="10dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/back_btn"
+        />
+
+    <GridView
+        android:id="@+id/gv_catalog"
+        android:listSelector="#00000000"
+        android:layout_below="@id/btn_learn_english_return"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:horizontalSpacing="1dp"
+        android:numColumns="5"/>
+</RelativeLayout>

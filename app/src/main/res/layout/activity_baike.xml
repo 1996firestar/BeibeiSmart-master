@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/u0"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/btn_baike_return"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:background="@drawable/arrow_l"
+        android:layout_gravity="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3.8"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="match_parent"
+            android:text="贝贝百科"
+            android:textSize="36sp"
+            android:textColor="#000"
+            android:padding="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <Button
+            android:id="@+id/btn_baike_animal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="动物百科"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:background="@color/transparent"
+            android:layout_alignParentStart="true"
+
+            app:srcCompat="@drawable/white" />
+
+        <Button
+            android:id="@+id/btn_baike_fruit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="水果百科"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:background="@color/transparent"
+            android:layout_alignBottom="@+id/imageView5_0"
+            android:layout_alignParentStart="true"
+            app:srcCompat="@drawable/white" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <Button
+            android:id="@+id/btn_baike_vegetable"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="蔬菜百科"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:background="@color/transparent"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@drawable/white" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_baike_english"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:text="英语百科"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:background="@color/transparent"
+            android:layout_marginEnd="3dp"
+            app:srcCompat="@drawable/white" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
